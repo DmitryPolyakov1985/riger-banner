@@ -91,6 +91,15 @@
     margin-top: 6px;
 }
 
+/* VIDEO */
+#video {
+    object-fit: fill;
+    position: absolute;
+    left: 0.9px;
+    top: 16px;
+    height: 215px;
+    width: 109px;
+}
 
 /* LOGO */
 .company-logo-container {
@@ -106,4 +115,99 @@
     /* text-align: center; */
     margin: 0 auto;
     display: inline-block;
+}
+
+#logo-sm {
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .banner {
+        width: 300px;
+        height: 100px;
+    }
+
+    .main-text-container {
+        height: 55px;
+        margin: 0px 15px;
+        width: 150px;
+        align-self: center;
+        /* line-height: 0.8; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .main-text-container h1 {
+        font-family: "Myriad Pro Bold Condensed", 'PT Sans Narrow', sans-serif;
+        text-transform: uppercase;
+        font-size: 20px;
+        letter-spacing: -1.3px;
+    }
+    
+    .main-text-container h2 {
+        color: #a20000;
+        font-family: "Quadon Bold";
+        text-transform: capitalize;
+        font-size: 27px;
+        line-height: -0.8px;
+        margin-top: -10px;
+    }
+
+    .main-text-container a {
+        display: none;
+    }
+
+    /* PHONE */
+    .phone-container {
+        width: 50px; 
+        height: auto;
+        overflow: hidden;
+        margin-right: 5px;
+    }
+
+    .phone {
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .phone img {
+        position: absolute;
+        z-index: 1000;
+        height: 94px;
+        margin-top: 2px;
+    }
+
+    /* VIDEO */
+    #video {
+        object-fit: fill;
+        position: absolute;
+        left: 0.9px;
+        top: 5.8px;
+        height: 87px;
+        width: 42px;
+    }
+
+    /* LOGO */
+    .company-logo-container {
+        width: 75px;
+        height: 55px;
+        align-self: center;
+        margin: 0 5px;
+    }
+
+    .company-logo-container img {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+    }
+
+    #logo-lg {
+        display: none;
+    }
+
+    #logo-sm {
+        display: flex;
+        align-items: center;
+    }
 }
