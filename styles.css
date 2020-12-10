@@ -222,7 +222,7 @@
     .main-text-container {
         height: 53px;
         margin: 0px 15px;
-        width: 155px;
+        width: 148px;
         align-self: center;
         /* line-height: 0.8; */
         display: flex;
@@ -241,7 +241,7 @@
         color: #a20000;
         font-family: "Quadon Bold";
         text-transform: capitalize;
-        font-size: 26px;
+        font-size: 25px;
         line-height: -0.8px;
         margin-top: -10px;
     }
