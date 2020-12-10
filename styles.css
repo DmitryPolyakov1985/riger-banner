@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Myriad Pro Bold Condensed";
+    src: url('./fonts/Myriad-Pro-Bold-Condensed.ttf');
+}
+@font-face {
+    font-family: "Quadon BOld";
+    src: url('./fonts/Quadon-Bold.ttf');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.banner {
+    width: 970px;
+    height: 250px;
+    border: 1px solid #d2d2d2;
+    background-image: url('./img/Background-970-251.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    /* flex-wrap: nowrap; */
+    justify-content: space-between;
+    /* padding: 1.5em; */
+}
+
+/* TEXT BLOCK */
+.main-text-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    /* padding: 2em 2em; */
+    height: 100%;
+    /* flex-grow: 1.3; */
+    padding: 1.8em;
+    padding-left: 45px;
+    width: 550px;
+    line-height: 1;
+}
+
+.main-text-container h1 {
+    font-family: "Myriad Pro Bold Condensed";
+    text-transform: uppercase;
+    font-size: 3.1rem;
+    /* font-weight: 600; */
+    /* letter-spacing: -1px; */
+}
+
+.main-text-container h2 {
+    color: #a20000;
+    font-family: "Quadon Bold";
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 5.2rem;
+}
+
+.main-text-container a {
+    text-decoration: none;
+    color: #000;
+    font-family: "Myriad Pro Bold Condensed";
+    font-size: 3.1rem;
+}
+
+
+.phone-container {
+    width: 140px; 
+    height: auto;
+    /* background-color: red; */
+    overflow: hidden;
+}
+
+.phone {
+    position: relative;
+}
+
+.phone img {
+    position: absolute;
+    z-index: 1000;
+    height: 253px;
+}
+
+.company-logo-container {
+    width: 280px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    /* margin-left: 0.5em; */
+}
+
+.company-logo-container img {
+    width: 85%;
+    /* min-width: 200px; */
+    height: auto;
+    display: inline-block;
+    margin: 0 auto;
+}
