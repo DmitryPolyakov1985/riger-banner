@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+
 @font-face {
     font-family: "Myriad Pro Bold Condensed";
     src: url('./fonts/Myriad-Pro-Bold-Condensed.ttf');
 }
 @font-face {
-    font-family: "Quadon BOld";
+    font-family: "Quadon Bold";
     src: url('./fonts/Quadon-Bold.ttf');
 }
 
@@ -52,7 +54,7 @@
 }
 
 .main-text-container h1 {
-    font-family: "Myriad Pro Bold Condensed";
+    font-family: "Myriad Pro Bold Condensed", 'PT Sans Narrow', sans-serif;
     text-transform: uppercase;
     font-size: 3.1rem;
     /* font-weight: 600; */
@@ -70,7 +72,7 @@
 .main-text-container a {
     text-decoration: none;
     color: #000;
-    font-family: "Myriad Pro Bold Condensed";
+    font-family: "Myriad Pro Bold Condensed", 'PT Sans Narrow', sans-serif;
     font-size: 3.1rem;
 }
 
